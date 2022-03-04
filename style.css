@@ -1,0 +1,93 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, Arial, Helvetica, sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    min-width: 100vw;
+    background-color: rgb(20, 20, 20);
+    color: white;
+    
+}
+
+main{
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header{
+    background: linear-gradient(to bottom, black, rgb(20, 20, 20));
+    padding: 10px;
+}
+
+header, h3{
+    color: red;
+    font-size: 1.4rem;
+    padding: 10px;
+    font-weight: solid;
+    cursor: pointer;
+}
+
+h1{
+    text-align: center;
+    font-weight: solid;
+}
+
+div > h1{
+    font-weight: normal;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+section > img {
+    padding: 2px;
+    margin-left: 15px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+section#usuarios{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section#usuarios > p{
+    display: inline-block;
+    margin: 10px 55px;
+    color: gray;
+    cursor: pointer;
+}
+
+img:hover{
+    border: 2px solid white;
+    border-radius: 6px;
+}
+
+section#usuarios > p:hover{
+    color: white;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer > p{
+    border: 1px solid gray;
+    padding: 8px;
+    color: gray;
+    cursor: pointer;
+}
+
+footer > p:hover{
+    border: 1px solid white;
+    color: white;
+}
